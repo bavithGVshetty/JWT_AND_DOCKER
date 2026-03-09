@@ -6,7 +6,7 @@ function App(){
   const[email,setEmail]=useState("");
   const[password,setPassword]=useState("");
   const[message,setMessage]=useState("");
-  const API="https://jwt-and-docker.onrender.com//api/auth";
+  const API="https://jwt-and-docker.onrender.com/api/auth";
 
   const registerUser=async ()=>{
     try{
